@@ -8,6 +8,10 @@ header{
   align-items: center;
 }
 
+header .mobile{
+  display:none;
+}
+
 header .logo{
   width: 30%;
   margin-left: 1.5rem;
@@ -111,10 +115,14 @@ li{
   margin-bottom: 0.1px;
 }
 
-.short-card img{
+.short-card .img-desktop{
   width: 35%;
   height: 100%;
   margin: 1rem;
+}
+
+.short-card .img-mobile{
+  display:none;
 }
 
 .short-card:last-child{
@@ -178,7 +186,10 @@ li{
 }
 
 /****************************************************VIDEO SECTION*/
-
+.thirds .title h1{
+  text-align: center;
+  padding: 2rem 0;
+}
 .third{
   display: flex;
 }

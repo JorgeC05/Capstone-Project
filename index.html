@@ -14,13 +14,19 @@
       <img src="resources/images/ic-logo.svg" alt="logo">
       <a href="">COLMAR<span>ACADEMY</span></a>
       </div>
-      <nav>
+      <nav class="desktop">
         <ul>
           <li>On Campus</li>
           <li>Online</li>
           <li>For companies</li>
           <li>Sign in</li>
         </ul>
+      </nav>
+      <nav class="mobile">
+        <div><img src="resources/images/ic-logo.svg" alt="logo"></div>
+        <div><img src="resources/images/ic-on-campus.svg" alt="on-campus"></div>
+        <div><img src="resources/images/ic-online.svg" alt="online"></div>
+        <div><img src="resources/images/ic-login.svg" alt="login"></div>
       </nav>
     </header> <!-- ++++++++++++++++++++++++++END HEADER-->
     <section>
@@ -42,7 +48,8 @@
       </div>
       <div class="submain">
         <div class="short-card">
-          <img src="resources/images/information-orientation.jpg" alt="Orientation date">
+          <img class="img-desktop" src="resources/images/information-orientation.jpg" alt="Orientation date">
+          <img class="img-mobile" src="resources/images/information-orientation-mobile.jpg" alt="Orientation date mobile">
           <div class="info-short">
             <h2>Orientation date</h2>
             <p>Tue 10/11 &amp Wed 10/12: 8am-3pm</p>
@@ -50,7 +57,8 @@
           </div>
         </div>
         <div class="short-card">
-          <img src="resources/images/information-campus.jpg" alt="Our campus">
+          <img class="img-desktop" src="resources/images/information-campus.jpg" alt="Our campus">
+          <img class="img-mobile" src="resources/images/information-campus-mobile.jpg" alt="Our campus mobile">
           <div class="info-short">
             <h2>Our campus</h2>
             <p>Find which campus is close by you</p>
@@ -58,8 +66,9 @@
           </div>
         </div>
         <div class="short-card">
-          <img src="resources/images/information-guest-lecture.jpg" alt="Our guest lecture">
-          <div class="info-short">
+          <img class="img-desktop" src="resources/images/information-guest-lecture.jpg" alt="Our guest lecture">
+          <img class="img-mobile" src="resources/images/information-guest-lecture-mobile.jpg" alt="Our guest lecture mobile">
+          <div class="info-short end">
             <h2>Our guest lecture</h2>
             <p>Join a keynote with Oliver Sack about music in medical treament</p>
             <a href="">Read more</a>
@@ -122,7 +131,11 @@
         </div>
       </div>
     </section><!-- ++++++++++++++++++++++++++END COURSES-->
-    <section class="third">
+    <section class="thirds">
+      <div class="title">
+        <h1>Thesis exhibits</h1>
+      </div>
+      <div class="third">
       <div class="main-video">
         <video src="resources/videos/thesis.mp4" autoplay controls poster="posterimage.jpg">
         </video>
@@ -144,6 +157,7 @@
             <p>Research study about New York</p>
           </div>
         </div>
+      </div>
       </div>
     </section> <!-- ++++++++++++++++++++++++++END VIDEO-->
     <footer>
