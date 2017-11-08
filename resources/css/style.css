@@ -272,7 +272,7 @@ footer a:last-child{
 
 /*********************************************************************************************************MOBILE************************************/
 
-@media only screen and (max-width : 400px) {
+@media only screen and (max-width : 600px) {
 
   header .logo, header .desktop{
     display: none;
